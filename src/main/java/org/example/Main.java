@@ -11,7 +11,7 @@ import java.time.Period;
 import java.util.Locale;
 
 public class Main {
-    static void main(String[] args) {
+  public static void main(String[] args) {
         LocalDate today = LocalDate.now();
 
 // Exercise 1 - Current Date
@@ -93,7 +93,7 @@ public class Main {
     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
     String formattedTime = now.format(formatter);
     System.out.println("Formatted time: " + formattedTime);
-*/
+
 
 // Exercise 13 - Specific LocalDateTime
     LocalDateTime dateTime = LocalDateTime.of(2018, 4,5,10,0);
@@ -104,9 +104,20 @@ public class Main {
         String formattedDateTime = dateTime.format(formatter);
 
         System.out.println(formattedDateTime);
-
+*/
 
 // Exercise 15 - Combine Date and Time
+      LocalDate date = LocalDate.of(2022, 4, 22);
+      LocalTime newTime = LocalTime.of(11, 56);
+
+      LocalDateTime dateTime2 = LocalDateTime.of(date, newTime);
+
+      System.out.println("Date: " + date);
+      System.out.println("Time: " + newTime);
+      System.out.println("Combined LocalDateTime: " + dateTime2);
+
+
+
 
 // Exercise 16 - Extract Components from LocalDateTime
 
