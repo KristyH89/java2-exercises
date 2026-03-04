@@ -3,6 +3,7 @@ package org.example;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.DayOfWeek;
+import java.time.Month;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.TemporalAdjusters;
@@ -45,13 +46,18 @@ public class Main {
 
 // Exercise 5 - Day of the Week
 
-LocalDate birthday = LocalDate.of(1989,10,31);
-DayOfWeek dayOfWeek = birthday.getDayOfWeek();
+    LocalDate birthday = LocalDate.of(1989,10,31);
+    DayOfWeek dayOfWeek = birthday.getDayOfWeek();
 
-System.out.println("Birthday: " + birthday);
-System.out.println("Day of week: " + dayOfWeek);
+    System.out.println("Birthday: " + birthday);
+    System.out.println("Day of week: " + dayOfWeek);
 
 // Exercise 6 - Future and Past Date
+    LocalDate futureDate = today.plusYears(10).minusMonths(10);
+    Month month = futureDate.getMonth();
+
+    System.out.println("Furture Date: " + futureDate);
+    System.out.println("Month: " + month);
 
 // Exercise 7 - Period Between Dates
 
