@@ -96,6 +96,8 @@ System.out.println("Nanoseconds: " + nanos);
 
 
 // Exercise 13 - Specific LocalDateTime
+    LocalDateTime dateTime = LocalDateTime.of(2018, 4,5,10,0);
+    System.out.println("DateTime: " + dateTime);
 
 // Exercise 14 - Formatted LocalDateTime
 
