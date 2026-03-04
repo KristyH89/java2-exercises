@@ -76,6 +76,8 @@ public class Main {
 
 
 // Exercise 9 - Current Time
+       LocalTime now = LocalTime.now();
+        System.out.println("Current time: " + now);
 
 // Exercise 10 - Nanoseconds of LocalTime
 
