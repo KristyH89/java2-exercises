@@ -7,6 +7,7 @@ import java.time.Month;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.TemporalAdjusters;
+import java.time.Period;
 import java.util.Locale;
 
 public class Main {
@@ -60,6 +61,12 @@ public class Main {
     System.out.println("Month: " + month);
 
 // Exercise 7 - Period Between Dates
+    Period age = Period.between(birthday, futureDate);
+    System.out.println("Elapsed time:");
+    System.out.println("Years: " + age.getYears());
+    System.out.println("Months: " + age.getMonths());
+    System.out.println("Days: " + age.getDays());
+
 
 // Exercise 8 - Add Period to Current Date
 
