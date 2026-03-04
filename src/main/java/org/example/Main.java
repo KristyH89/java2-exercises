@@ -45,6 +45,12 @@ public class Main {
 
 // Exercise 5 - Day of the Week
 
+LocalDate birthday = LocalDate.of(1989,10,31);
+DayOfWeek dayOfWeek = birthday.getDayOfWeek();
+
+System.out.println("Birthday: " + birthday);
+System.out.println("Day of week: " + dayOfWeek);
+
 // Exercise 6 - Future and Past Date
 
 // Exercise 7 - Period Between Dates
