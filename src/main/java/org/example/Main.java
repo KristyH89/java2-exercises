@@ -25,7 +25,7 @@ public class Main {
 
         System.out.println("Formatted Date: " + formattedTime);
 
-         */
+
 
 // Exercise 3 - Last Monday and the Entire Week
         LocalDate lastMonday = today.with(TemporalAdjusters.previousOrSame(DayOfWeek.MONDAY));
@@ -38,7 +38,7 @@ public class Main {
         for (int i = 0; i < 7; i++) {
             LocalDate day = lastMonday.plusDays(i);
             System.out.println(day.format(formatter));
-        }
+        } */
 // Exercise 4 - Parse Date from String
 
         LocalDate parseDate = LocalDate.parse("2026-03-04");
@@ -90,6 +90,10 @@ System.out.println("Nanoseconds: " + nanos);
     System.out.println("Parsed time: " + time);
 
 // Exercise 12 - Formatted Current Time
+    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
+    String formattedTime = now.format(formatter);
+    System.out.println("Formatted time: " + formattedTime);
+
 
 // Exercise 13 - Specific LocalDateTime
 
