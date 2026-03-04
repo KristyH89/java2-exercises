@@ -81,33 +81,34 @@ public class Main {
 
 // Exercise 10 - Nanoseconds of LocalTime
 
-int nanos = now.getNano();
-System.out.println("Current time: " + now);
-System.out.println("Nanoseconds: " + nanos);
+    int nanos = now.getNano();
+    System.out.println("Current time: " + now);
+    System.out.println("Nanoseconds: " + nanos);
 
 // Exercise 11 - Parse Time from String
     LocalTime time = LocalTime.parse("14:30:15");
     System.out.println("Parsed time: " + time);
-
+/*
 // Exercise 12 - Formatted Current Time
     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
     String formattedTime = now.format(formatter);
     System.out.println("Formatted time: " + formattedTime);
-
+*/
 
 // Exercise 13 - Specific LocalDateTime
     LocalDateTime dateTime = LocalDateTime.of(2018, 4,5,10,0);
     System.out.println("DateTime: " + dateTime);
 
 // Exercise 14 - Formatted LocalDateTime
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("EEEE dd MMMM HH:mm", new Locale("sv", "SE"));
+        String formattedDateTime = dateTime.format(formatter);
+
+        System.out.println(formattedDateTime);
+
 
 // Exercise 15 - Combine Date and Time
 
 // Exercise 16 - Extract Components from LocalDateTime
-
-
-
-
 
 
 
