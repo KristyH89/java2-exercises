@@ -81,6 +81,10 @@ public class Main {
 
 // Exercise 10 - Nanoseconds of LocalTime
 
+int nanos = now.getNano();
+System.out.println("Current time: " + now);
+System.out.println("Nanoseconds: " + nanos);
+
 // Exercise 11 - Parse Time from String
 
 // Exercise 12 - Formatted Current Time
