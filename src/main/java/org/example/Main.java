@@ -86,6 +86,8 @@ System.out.println("Current time: " + now);
 System.out.println("Nanoseconds: " + nanos);
 
 // Exercise 11 - Parse Time from String
+    LocalTime time = LocalTime.parse("14:30:15");
+    System.out.println("Parsed time: " + time);
 
 // Exercise 12 - Formatted Current Time
 
