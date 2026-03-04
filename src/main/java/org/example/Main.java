@@ -67,8 +67,13 @@ public class Main {
     System.out.println("Months: " + age.getMonths());
     System.out.println("Days: " + age.getDays());
 
-
 // Exercise 8 - Add Period to Current Date
+    Period period = Period.of(4,7,29);
+    System.out.println("Today: " + today);
+
+    LocalDate futureDate2 = today.plus(period);
+    System.out.println("Future date after adding period: " + futureDate2);
+
 
 // Exercise 9 - Current Time
 
