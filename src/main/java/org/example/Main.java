@@ -121,10 +121,15 @@ public class Main {
 
 // Exercise 16 - Extract Components from LocalDateTime
 
+      LocalDateTime dateTime = LocalDateTime.of(2018, 10, 26, 22, 39);
+
+      LocalDate date4 = dateTime.toLocalDate();
+      LocalTime time4 = dateTime.toLocalTime();
 
 
-
-
+      System.out.println("LocalDateTime: " + dateTime);
+      System.out.println("LocalDate: " + date4);
+      System.out.println("LocalTime: " + time4);
 
 
 
