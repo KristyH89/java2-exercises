@@ -129,6 +129,11 @@ Question
 
 Convert the following String: "ThisShouldBeConverted" to a char array. Iterate through the char array and print out each element.
  */
+            String message10 = "ThisShouldBeConverted";
+            char[] charArray = message10.toCharArray();
+            for (char c : charArray) {
+                System.out.println(c);
+            }
 
 
 /*
