@@ -1,4 +1,6 @@
+import java.util.Arrays;
 public class StringExercises {
+
 
     public static void main(String[] args) {
 
@@ -92,6 +94,20 @@ Question
 Oil and water don't go well together. Given the String: "Oil and Water", split them up into the words "Oil",
 "Water" and store them in a String array.
  */
+        String message8 = "Oil and Water";
+        String[] words = message8.split(" ");
+        String oil = words[0];
+        String water = words[2];
+        String [] result = {oil, water};
+
+        // I looked for a way to make the code better:
+         String[] result2 = {"Oil and Water".split(" ")[0], "Oil and Water".split(" ")[2]};
+
+
+         System.out.println(result);
+        // I got a strange result so I had to look up how I could get a good print of the result.
+
+        System.out.println(Arrays.toString(result));
 
 
 /*
