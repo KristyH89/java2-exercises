@@ -79,6 +79,10 @@ Question
 
 Parse the following int: 20 to a String and add a 20 to the end of the String. Printing it out should return: "2020".
  */
+        int number = 20;
+        String text = Integer.toString(number);
+        text = text + "20";
+        System.out.println(text);
 
 
 /*
