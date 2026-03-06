@@ -135,14 +135,15 @@ Convert the following String: "ThisShouldBeConverted" to a char array. Iterate t
                 System.out.println(c);
             }
 
-
 /*
 Exercise 11 – Convert Char Array to String
 Question
 
 Convert the following char[]: {'J','a','v','a'} to a String and print it out.
  */
-
+        char[] chars = {'J','a','v','a'};
+        String message11 = new String(chars);
+        System.out.println(message11);
 
 
     }
