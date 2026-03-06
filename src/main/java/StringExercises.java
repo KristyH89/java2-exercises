@@ -44,6 +44,9 @@ Given the following String:
 (excluding the exclamation point) and print it out.
  */
 
+        String message4 = "Ok this is not as long!";
+        String substring = message4.substring(11,22);
+        System.out.println("Substring: " + substring);
 
 /*
 Exercise 5 – Lowercase and Uppercase
