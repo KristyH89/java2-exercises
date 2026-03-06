@@ -55,7 +55,12 @@ Question
 Convert the following String: "CAPS EQUALS SCREAMING" to lowercase and print it out.
 Then convert it back to uppercase and print it out again.
  */
+        String message5 = "CAPS EQUALS SCREAMING";
+        String toLowerCase = message5.toLowerCase();
+        System.out.println("In lower case: " + toLowerCase);
 
+        String backToUpper = toLowerCase.toUpperCase();
+        System.out.println("Back to upper case: " + backToUpper);
 
 /*
 Exercise 6 – Trim String
