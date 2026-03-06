@@ -8,8 +8,10 @@ Question
 What is the length of the String: "Java"?
 */
 
+
     String message = "Java";
     System.out.println("The length of the String 'Java' is: " + message.length());
+
 
 
 /*Exercise 2 – Character at Index
@@ -18,6 +20,10 @@ Question
 What char is at index position 6 in the following String: "Long example sentence"? */
 
 
+    String message2 = "Long example sentence";
+   char position6 = message2.charAt(6);
+    System.out.println(position6);
+
 /*
 Exercise 3 – Index Position of 'o'
 Question
@@ -25,7 +31,9 @@ Question
 What is the index position of 'o' in the following String: "Even longer example sentence"?
  */
 
-
+        String message3 = "Even longer example sentence";
+        int positionO = message3.indexOf('o');
+        System.out.println("The position of 'o' is: " + positionO);
 
 /*
 Exercise 4 – Substring
