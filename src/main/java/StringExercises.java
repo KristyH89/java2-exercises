@@ -69,7 +69,10 @@ Question
 What is the output of the following String: "\tJ\ta\tv\ta\t" after you trim it?
  */
 
-
+        String message6 = "\tJ\ta\tv\ta\t";
+        String trim = message6.trim();
+        System.out.println("Trimmmed: " + trim);
+        System.out.println("J a   v   a");
 /*
 Exercise 7 – Parse to String
 Question
