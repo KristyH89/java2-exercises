@@ -116,6 +116,11 @@ Question
 
 Split the following String: "Carl,Susie,Fredrick,Bob,Erik" into an array. Print out all names separately.
  */
+        String names = "Carl,Susie,Fredrick,Bob,Erik";
+        String[] nameArray = names.split( ",");
+        for (String name : nameArray) {
+            System.out.println(name);
+        }
 
 
 /*
